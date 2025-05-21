@@ -1,0 +1,85 @@
+Model results: SVR(kernel='linear')
+Model RMSE scores: [110518.40356474 112956.5486846  106998.56227015 113590.97575445
+ 107782.52294955 116063.7781669  113279.08892636 111836.81295967
+ 113168.96643781 111945.40954593]
+RandomForest Cross-Validation Scores:
+Scores: [110518.40356474 112956.5486846  106998.56227015 113590.97575445
+ 107782.52294955 116063.7781669  113279.08892636 111836.81295967
+ 113168.96643781 111945.40954593]
+Mean: 111814.1069260169
+Standard deviation: 2600.8402690892553
+Fitting 5 folds for each of 10 candidates, totalling 50 fits
+[CV] END .................C=629.7823295913721, kernel=linear; total time=   9.6s
+[CV] END .................C=629.7823295913721, kernel=linear; total time=   9.4s
+[CV] END .................C=629.7823295913721, kernel=linear; total time=   8.2s
+[CV] END .................C=629.7823295913721, kernel=linear; total time=   9.5s
+[CV] END .................C=629.7823295913721, kernel=linear; total time=   9.6s
+[CV] END ................C=127024.42021281396, kernel=linear; total time=  51.2s
+[CV] END ................C=127024.42021281396, kernel=linear; total time= 1.0min
+[CV] END ................C=127024.42021281396, kernel=linear; total time=  49.8s
+[CV] END ................C=127024.42021281396, kernel=linear; total time=  56.3s
+[CV] END ................C=127024.42021281396, kernel=linear; total time=  55.1s
+[CV] END ................C=16943.602837639955, kernel=linear; total time=  15.5s
+[CV] END ................C=16943.602837639955, kernel=linear; total time=  14.5s
+[CV] END ................C=16943.602837639955, kernel=linear; total time=  15.0s
+[CV] END ................C=16943.602837639955, kernel=linear; total time=  19.2s
+[CV] END ................C=16943.602837639955, kernel=linear; total time=  16.0s
+[CV] END .................C=4962.081949735625, kernel=linear; total time=  11.6s
+[CV] END .................C=4962.081949735625, kernel=linear; total time=  11.9s
+[CV] END .................C=4962.081949735625, kernel=linear; total time=  10.7s
+[CV] END .................C=4962.081949735625, kernel=linear; total time=  11.3s
+[CV] END .................C=4962.081949735625, kernel=linear; total time=  10.0s
+[CV] END .................C=84.15977339213268, kernel=linear; total time=   9.4s
+[CV] END .................C=84.15977339213268, kernel=linear; total time=   9.2s
+[CV] END .................C=84.15977339213268, kernel=linear; total time=   8.4s
+[CV] END .................C=84.15977339213268, kernel=linear; total time=   9.0s
+[CV] END .................C=84.15977339213268, kernel=linear; total time=   9.3s
+[CV] END .................C=84.14107900575871, kernel=linear; total time=   9.3s
+[CV] END .................C=84.14107900575871, kernel=linear; total time=   7.9s
+[CV] END .................C=84.14107900575871, kernel=linear; total time=   9.2s
+[CV] END .................C=84.14107900575871, kernel=linear; total time=   9.2s
+[CV] END .................C=84.14107900575871, kernel=linear; total time=   7.9s
+[CV] END .................C=34.14793486305622, kernel=linear; total time=   9.4s
+[CV] END .................C=34.14793486305622, kernel=linear; total time=   9.1s
+[CV] END .................C=34.14793486305622, kernel=linear; total time=   7.9s
+[CV] END .................C=34.14793486305622, kernel=linear; total time=   9.5s
+[CV] END .................C=34.14793486305622, kernel=linear; total time=   9.3s
+[CV] END ................C=58308.863783075045, kernel=linear; total time=  30.8s
+[CV] END ................C=58308.863783075045, kernel=linear; total time=  35.1s
+[CV] END ................C=58308.863783075045, kernel=linear; total time=  27.5s
+[CV] END ................C=58308.863783075045, kernel=linear; total time=  28.3s
+[CV] END ................C=58308.863783075045, kernel=linear; total time=  31.9s
+[CV] END .................C=5075.631016531331, kernel=linear; total time=  10.6s
+[CV] END .................C=5075.631016531331, kernel=linear; total time=  10.8s
+[CV] END .................C=5075.631016531331, kernel=linear; total time=  11.3s
+[CV] END .................C=5075.631016531331, kernel=linear; total time=  11.6s
+[CV] END .................C=5075.631016531331, kernel=linear; total time=  11.2s
+[CV] END ................C=13593.156181516319, kernel=linear; total time=  14.0s
+[CV] END ................C=13593.156181516319, kernel=linear; total time=  14.7s
+[CV] END ................C=13593.156181516319, kernel=linear; total time=  13.2s
+[CV] END ................C=13593.156181516319, kernel=linear; total time=  14.1s
+[CV] END ................C=13593.156181516319, kernel=linear; total time=  15.2s
+
+Coefficients of the best SVR model:
+num__longitude: -39695.7448
+num__latitude: -37353.5857
+num__housing_median_age: 10395.1389
+num__total_rooms: 1169.6046
+num__total_bedrooms: -4339.5375
+num__population: -44443.0762
+num__households: 52926.5335
+num__median_income: 80338.9221
+num__rooms_per_hhold: 9153.8710
+num__pop_per_hhold: -137.5609
+num__bedrooms_per_room: 18504.3074
+cat__ocean_proximity_<1H OCEAN: -11767.0411
+cat__ocean_proximity_INLAND: -50893.1512
+cat__ocean_proximity_ISLAND: 87432.0972
+cat__ocean_proximity_NEAR BAY: -19147.4142
+cat__ocean_proximity_NEAR OCEAN: -5624.4908
+
+Best hyperparameters found by Randomized Search:
+{'C': np.float64(127024.42021281396), 'kernel': 'linear'}
+
+Final RMSE on the test set: 68100.19708269964
+95% Confidence Interval for Test RMSE (t-dist): [65699.26961255 70419.31310218]

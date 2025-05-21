@@ -1,0 +1,34 @@
+Model results RandomForestRegressor(random_state=42)
+Model rmese scores [51559.63379638 48737.57100062 47210.51269766 51875.21247297
+ 47577.50470123 51863.27467888 52746.34645573 50065.1762751
+ 48664.66818196 54055.90894609]
+Random Forest Cross-Validation Scores:
+Scores: [51559.63379638 48737.57100062 47210.51269766 51875.21247297
+ 47577.50470123 51863.27467888 52746.34645573 50065.1762751
+ 48664.66818196 54055.90894609]
+Mean: 50435.58092066179
+Standard deviation: 2203.3381412764606
+
+Feature Importances:
+median_income: 0.3452
+INLAND: 0.1587
+pop_per_hhold: 0.1107
+longitude: 0.0714
+bedrooms_per_room: 0.0697
+latitude: 0.0629
+rooms_per_hhold: 0.0595
+housing_median_age: 0.0430
+population: 0.0165
+total_rooms: 0.0164
+total_bedrooms: 0.0156
+households: 0.0154
+<1H OCEAN: 0.0087
+NEAR OCEAN: 0.0036
+NEAR BAY: 0.0027
+ISLAND: 0.0001
+
+Best hyperparameters found by Randomized Search:
+{'max_features': 7, 'n_estimators': 180}
+
+Final RMSE on the test set: 46981.841079394515
+95% Confidence Interval for Test RMSE (t-dist): [45009.73121871 48874.43992557]

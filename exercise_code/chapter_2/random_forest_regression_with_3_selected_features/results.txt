@@ -1,0 +1,22 @@
+Model results RandomForestRegressor(random_state=42)
+Model rmese scores [88771.21248772 92007.34428995 88496.93680784 91732.18829013
+ 88870.97312144 89605.64413855 93064.89088879 91199.02358689
+ 90556.10070022 92232.28907002]
+Random Forest Cross-Validation Scores:
+Scores: [88771.21248772 92007.34428995 88496.93680784 91732.18829013
+ 88870.97312144 89605.64413855 93064.89088879 91199.02358689
+ 90556.10070022 92232.28907002]
+Mean: 90653.66033815352
+Standard deviation: 1551.7764383124945
+
+
+Top 3 Feature Importances:
+median_income: 0.5016
+population_per_household: 0.4411
+INLAND: 0.0573
+
+Best hyperparameters found by Randomized Search:
+{'max_features': 3, 'n_estimators': 150}
+
+Final RMSE on the test set: 145363.2601716064
+95% Confidence Interval for Test RMSE (t-dist): [141567.88015422 149062.03448255]

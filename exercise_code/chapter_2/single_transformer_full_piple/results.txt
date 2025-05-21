@@ -1,0 +1,73 @@
+prediction: [ 85241. 287045. 114504. ... 144600. 239604. 102233.]
+Model rmese scores [79397.31706781 84059.91156089 77410.12140963 81514.14057831
+ 78276.43641486 82403.1824376  84104.29820193 80310.40346959
+ 79053.31275186 82127.87922803]
+Random Forest Cross-Validation Scores:
+Scores: [79397.31706781 84059.91156089 77410.12140963 81514.14057831
+ 78276.43641486 82403.1824376  84104.29820193 80310.40346959
+ 79053.31275186 82127.87922803]
+Mean: 80865.70031204968
+Standard deviation: 2224.03887464941
+Fitting 5 folds for each of 10 candidates, totalling 50 fits
+[CV] END regressor__max_features=1, regressor__n_estimators=180; total time=   5.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=180; total time=   5.1s
+[CV] END regressor__max_features=1, regressor__n_estimators=180; total time=   4.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=180; total time=   5.5s
+[CV] END regressor__max_features=1, regressor__n_estimators=180; total time=   4.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=15; total time=   0.4s
+[CV] END regressor__max_features=1, regressor__n_estimators=15; total time=   0.4s
+[CV] END regressor__max_features=1, regressor__n_estimators=15; total time=   0.4s
+[CV] END regressor__max_features=1, regressor__n_estimators=15; total time=   0.4s
+[CV] END regressor__max_features=1, regressor__n_estimators=15; total time=   0.4s
+[CV] END regressor__max_features=1, regressor__n_estimators=72; total time=   1.9s
+[CV] END regressor__max_features=1, regressor__n_estimators=72; total time=   2.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=72; total time=   2.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=72; total time=   1.9s
+[CV] END regressor__max_features=1, regressor__n_estimators=72; total time=   1.9s
+[CV] END regressor__max_features=1, regressor__n_estimators=21; total time=   0.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=21; total time=   0.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=21; total time=   0.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=21; total time=   0.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=21; total time=   0.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=122; total time=   3.8s
+[CV] END regressor__max_features=1, regressor__n_estimators=122; total time=   3.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=122; total time=   3.2s
+[CV] END regressor__max_features=1, regressor__n_estimators=122; total time=   3.2s
+[CV] END regressor__max_features=1, regressor__n_estimators=122; total time=   4.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=75; total time=   1.9s
+[CV] END regressor__max_features=1, regressor__n_estimators=75; total time=   2.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=75; total time=   2.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=75; total time=   2.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=75; total time=   2.1s
+[CV] END regressor__max_features=1, regressor__n_estimators=88; total time=   3.0s
+[CV] END regressor__max_features=1, regressor__n_estimators=88; total time=   2.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=88; total time=   2.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=88; total time=   2.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=88; total time=   2.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=100; total time=   3.4s
+[CV] END regressor__max_features=1, regressor__n_estimators=100; total time=   2.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=100; total time=   2.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=100; total time=   2.6s
+[CV] END regressor__max_features=1, regressor__n_estimators=100; total time=   3.0s
+[CV] END regressor__max_features=2, regressor__n_estimators=152; total time=   5.1s
+[CV] END regressor__max_features=2, regressor__n_estimators=152; total time=   4.8s
+[CV] END regressor__max_features=2, regressor__n_estimators=152; total time=   5.6s
+[CV] END regressor__max_features=2, regressor__n_estimators=152; total time=   4.8s
+[CV] END regressor__max_features=2, regressor__n_estimators=152; total time=   5.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=150; total time=   4.1s
+[CV] END regressor__max_features=1, regressor__n_estimators=150; total time=   3.9s
+[CV] END regressor__max_features=1, regressor__n_estimators=150; total time=   4.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=150; total time=   4.3s
+[CV] END regressor__max_features=1, regressor__n_estimators=150; total time=   3.8s
+
+Top Feature Importances:
+median_income: 0.4683
+population_per_household: 0.5070
+<1H OCEAN: 0.0247
+
+Best hyperparameters found by Randomized Search:
+{'regressor__max_features': 1, 'regressor__n_estimators': 180}
+
+Final RMSE on the test set: 30350.80
+95% confidence interval for RMSE: [29832.3832969  30860.51503643]
+95% Confidence Interval for Test RMSE (t-dist): [29832.3832969  30860.51503643]
